@@ -9,6 +9,31 @@
   "author": "Danny Vega",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.1"
+    "-": "^0.0.1",
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DannyVegaB/devsu_demoblaze/tree/master"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.1",
+    "esbuild": "^0.19.10",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  },
+  "cypresscypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "compilerOptions": {
+    "moduleResolution": "node16",
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/*": [
+        "./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"
+      ]
+    }
   }
 }
