@@ -1,0 +1,3 @@
+El proyecto demoblaze fue un proyecto muy entretenido.
+Es muy interactivo para practicar automatización.
+Se creo validaciones con los mensajes y se puede hacer compra de diversos productos solo actualizando el example.
