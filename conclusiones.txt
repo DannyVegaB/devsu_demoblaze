@@ -1,3 +1,4 @@
 El proyecto demoblaze fue un proyecto muy entretenido.
 Es muy interactivo para practicar automatización.
+En un solo proyecto se creo la automatización del API y de la Web
 Se creo validaciones con los mensajes y se puede hacer compra de diversos productos solo actualizando el example.
